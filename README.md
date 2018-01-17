@@ -50,3 +50,5 @@ Open the `\*.custom_argvars` file associated with the workspace you want to run,
 
 #### Code Composer Studio SDK path change
 Open the `.project` file associated with the projects you want to run, and change the path for `TI_BLE_SDK_BASE` in the `<variableList>` at the bottom of the file to reflect your path.
+
+
