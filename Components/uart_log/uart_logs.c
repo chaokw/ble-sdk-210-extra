@@ -363,7 +363,6 @@ static void uartLog_doPrint(uartLog_EventRec *er)
   
   *bufPtr++ = '\r';
   *bufPtr++ = '\n';
-
   
   UART_write(hUart, uartLog_outBuf, (bufPtr - uartLog_outBuf));
 }
