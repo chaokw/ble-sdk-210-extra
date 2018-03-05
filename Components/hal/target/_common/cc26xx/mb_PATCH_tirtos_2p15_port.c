@@ -41,10 +41,10 @@
 /*******************************************************************************
  * INCLUDES
  */
-
 #include "hal_mcu.h"
 #include "hal_assert.h"
 #include "mb.h"
+
 //
 #include "R2F_CommonFlashJT.h"
 #include "R2R_CommonFlashJT.h"
