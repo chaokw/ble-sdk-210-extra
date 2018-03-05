@@ -54,7 +54,6 @@
  * INCLUDES
  */
 #include <ti/drivers/UART.h>
-
 #include <ti/sysbios/hal/Hwi.h>
 
 #include <xdc/runtime/Log.h>
