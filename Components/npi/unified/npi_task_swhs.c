@@ -67,6 +67,7 @@
 // ****************************************************************************
 //! \brief Attempted to send chirp as initiator and it timed out event
 #define NPITASK_TL_TIMEOUT_EVENT            0x0004
+
 //! \brief ASYNC Message Received Event (no framing bytes)
 #define NPITASK_FRAME_RX_EVENT              0x0008
 
@@ -81,8 +82,6 @@
 
 //! \brief TL needs to be opened before use event
 #define NPITASK_TL_OPEN_EVENT               0x0080
-
-
 
 //! \brief Task priority for NPI RTOS task
 #define NPITASK_PRIORITY                    2
