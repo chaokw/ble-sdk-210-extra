@@ -112,7 +112,7 @@ typedef struct _npiFromHostTableEntry_t
 typedef struct _npiFromICallTableEntry_t
 {
     uint8_t              icallID;
-    npiFromICallCBack_t ssCB;
+    npiFromICallCBack_t  ssCB;
 } _npiFromICallTableEntry_t;
 
 //*****************************************************************************
