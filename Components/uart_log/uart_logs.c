@@ -102,7 +102,6 @@ typedef struct
 * LOCAL VARIABLES
 */
 static UART_Handle hUart = NULL;
-
 static char              uartLog_outBuf[UARTLOG_OUTBUF_LEN + 4];
 static uartLog_EventRec  uartLog_evBuf[UARTLOG_NUM_EVT_BUF];
 static uint8_t           uartLog_tail = 0;
